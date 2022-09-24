@@ -1,0 +1,73 @@
+@import url("./styles/reseter.css");
+
+body {
+  background-color: #181a1b;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-bottom: 10px;
+  flex: 1 1 auto;
+}
+
+.header {
+  padding: 10px 0;
+  text-align: center;
+  background-color: darkgrey;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.list__item {
+  display: flex;
+  flex-direction: column;
+  width: 230px;
+  padding: 10px;
+  border-radius: 0.4em;
+  background-color: darkslateblue;
+  box-shadow: 2px 2px 5px #eadcdc63;
+}
+
+.list__item-image {
+  margin-bottom: 10px;
+  min-height: 130px;
+  object-fit: cover;
+}
+
+.list__item-text {
+  color: whitesmoke;
+}
+
+.footer {
+  padding: 10px 0;
+  background-color: darkslategrey;
+}
+
+.footer__text {
+  color: whitesmoke;
+  text-align: center;
+  text-transform: uppercase;
+}
